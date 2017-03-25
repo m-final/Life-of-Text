@@ -21,7 +21,7 @@ parser.add_argument("-f", "--flag")
 args = parser.parse_args()
 print args.echo
 ```
-其中不以dash `-` 开头的为__positional参数__，一般必填。以dash `-` 开头的为__optional参数__，可以不指定。保存代码为_prog.py_，以上代码即包含了我们最常用的三个操作
+其中不以dash `-` 开头的为 __positional参数__, 一般必填。以dash `-` 开头的为 __optional参数__，可以不指定。保存代码为 _prog.py_，以上代码即包含了我们最常用的三个操作
 1. 创建parser
 2. 添加argument（包括positiona和optional）
 3. 解析parser
@@ -256,7 +256,7 @@ Name space：
 
 > #### ArgumentParser.add_mutually_exclusive_group(required=False)
 
-一个互斥组，组内最多只有一个参数可以被设置，___required___为`True`则保证必须有一个被设置。
+一个互斥组，组内最多只有一个参数可以被设置，___required___ 为`True`则保证必须有一个被设置。
 
 > #### ArgumentParser.set_defaults(**kwargs)
 

@@ -41,9 +41,9 @@ if __name__ == '__main__':
 
 以上就是一个最普遍的使用情境。将需要的参数以doc的形式写在Python文件的开始，这也是Python Community建议的形式，形式与`—help`的输出一致，之后docopt会自动解析，再返回一个与argparse的namespace近似的对象.
 
-在main函数中，使用docopt对上面书写的\__doc__进行解析即得到需要的parser结构。
+在main函数中，使用docopt对上面书写的`__doc__`进行解析即得到需要的parser结构。
 
-在doc中，__Usage__是必选项，作为docopt的识别标志。其中
+在doc中，__Usage__ 是必选项，作为docopt的识别标志。其中
 
 - 方括号`[]`代表optional参数
 - `()`为positional参数，`<>`为参数值
