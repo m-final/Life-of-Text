@@ -22,7 +22,7 @@ github_username:  m-final
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal 
+theme: minima 
 gems:
   - jekyll-feed
 exclude:
